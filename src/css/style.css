@@ -1,0 +1,96 @@
+font-style, .left, .filter button, .submitClear, .submitAdd {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+touch-style:hover, .submitClear:hover, .submitAdd:hover {
+  background: #77baf82c;
+}
+touch-style:active, .submitClear:active, .submitAdd:active {
+  background: #77baf89a;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #77baf888;
+}
+
+.addTodo {
+  display: flex;
+}
+
+.textfield {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.submitAdd {
+  color: #555555;
+  border: none;
+  padding: 5px 10px;
+}
+
+.submitClear {
+  color: #555555;
+  border: none;
+  padding: 5px 10px;
+}
+
+.filter {
+  margin: 16px 0 0;
+}
+.filter .selected {
+  background: #77baf81c;
+  color: #555555;
+  border-bottom: 2px solid #77baf8;
+}
+.filter button {
+  background: transparent;
+  color: #555555;
+  border: none;
+}
+
+.todos {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+}
+footer span {
+  flex-grow: 1;
+}
+
+.left {
+  border: none;
+  padding: 5px;
+}
+
+.footer {
+  color: #555555;
+  margin: 50px 0 0;
+  top: 6000px;
+}
+
+button {
+  outline: none;
+}
+
+.todos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  margin: 16px 8px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

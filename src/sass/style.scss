@@ -1,0 +1,106 @@
+font-style {
+  font: {
+    family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 14px;
+  }
+}
+
+touch-style {
+  &:hover {
+    background: #77baf82c;
+  }
+  &:active {
+    background: #77baf89a;
+    color: #ffffff;
+  }
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #77baf888;
+}
+
+.addTodo {
+  display: flex;
+}
+
+.textfield {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.submitAdd {
+  @extend font-style;
+  @extend touch-style;
+  color: #555555;
+  border: none;
+  padding: 5px 10px;
+}
+
+.submitClear {
+  @extend font-style;
+  @extend touch-style;
+  color: #555555;
+  border: none;
+  padding: 5px 10px;
+}
+
+.filter {
+  margin: 16px 0 0;
+  .selected {
+    background: #77baf81c;
+    color: #555555;
+    border-bottom: 2px solid #77baf8;
+  }
+  button {
+    @extend font-style;
+    background: transparent;
+    color: #555555;
+    border: none;
+  }
+}
+
+.todos {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  span {
+    flex-grow: 1;
+  }
+}
+
+.left{
+  @extend font-style;
+  border: none;
+  padding: 5px;
+}
+
+.footer{
+  color: #555555;
+  margin: 50px 0 0;
+  top: 6000px;
+}
+
+button{
+  outline:none;
+}
+
+.todos{
+  font: {
+    family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 12px;
+  }
+  color: #666666;
+  margin: 16px 8px 0;
+}
